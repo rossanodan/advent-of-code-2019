@@ -1,7 +1,7 @@
 var fs = require('fs');
 
 function index2(): number {
-    const read = fs.readFileSync('day-2/input.txt', 'utf-8');
+    const read = fs.readFileSync('day-1/input-2.txt', 'utf-8');
     const modules = read.split('\n');
     let sum: number = 0;
     for (let module of modules) {

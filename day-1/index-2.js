@@ -1,7 +1,7 @@
 "use strict";
 var fs = require('fs');
 function index2() {
-    var read = fs.readFileSync('day-2/input.txt', 'utf-8');
+    var read = fs.readFileSync('day-1/input-2.txt', 'utf-8');
     var modules = read.split('\n');
     var sum = 0;
     for (var _i = 0, modules_1 = modules; _i < modules_1.length; _i++) {
