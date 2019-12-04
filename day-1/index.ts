@@ -1,4 +1,4 @@
-const fs = require('fs');
+var fs = require('fs');
 
 function index(): number {
     const read = fs.readFileSync('day-1/input.txt', 'utf-8');
